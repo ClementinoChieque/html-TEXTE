@@ -61,7 +61,7 @@ nav >a:hover{
 }
 main{ 
     background-color:aquamarine;
-    min-width:500px;
+    min-width:800px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 50px;
