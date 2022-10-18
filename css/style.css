@@ -15,6 +15,7 @@ body{
    
 
     }
+   
 :root{
     --core:#0f12b159;
     --core2:hsla(218, 89%, 4%, 0.835);
@@ -36,7 +37,7 @@ header{
 }
 header>h1{
     padding: 30px;
-  
+  display: block;
     font-family:  var( --font);
     font-size: 25px;
     
@@ -46,14 +47,17 @@ header>h1{
  
 }
 header>p{
-   
+    
     color: white;
+    display: block;
     font-family: var(--font);
     font-size: 1.2em;
-    text-align: center;
+   
+    
     padding-left: 10px;
     padding-right: 10px;
     max-width: 500px;
+  
     
 }
 nav{
@@ -73,7 +77,7 @@ nav >a:hover{
 }
 main{ 
     background-color:aquamarine;
-    min-width:400px;
+    min-width:406px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 50px;
@@ -84,12 +88,14 @@ main{
    box-shadow: 0px 0px 10px rgb(71, 56, 56);
  
 }
+main article >p{
 
+       text-align: justify;
+        margin: 13px 0px;      
+    }
 p > a{
     text-decoration: none;
-    font-size: x-large;
-   
-    
+    font-size: x-large;   
 }
 footer > p{
 color: #0e0c79;
