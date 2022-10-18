@@ -73,7 +73,7 @@ nav >a:hover{
 }
 main{ 
     background-color:aquamarine;
-    min-width:400px;
+    min-width:450px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 50px;
