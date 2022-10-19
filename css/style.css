@@ -75,9 +75,12 @@ nav >a{
 nav >a:hover{
     color: var(--core4);
 }
+nav img{
+    width: 40px;height: 40px;
+}
 main{ 
     background-color:aquamarine;
-    min-width:414px;
+    min-width:411px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 50px;
@@ -94,7 +97,7 @@ main p{
         margin: 13px 0px;   
         text-indent: 20px;  
         font-size: 1.1em; 
-        line-height: 1  em;
+        line-height: 1em;
     }
     main h2{
         font-family: var(--font);
@@ -126,7 +129,7 @@ footer {
     
 }
 .imagens {
-
+   max-width: 350px;
     display: block;
    margin: auto;
     
@@ -139,4 +142,9 @@ width: 300px; height: 300px;
      display: block;
     margin-left: auto;
     margin-right: auto;
+}
+aside{
+    background-color: var(--core);
+    padding-left: 10px;
+    padding-right: 10px;
 }
