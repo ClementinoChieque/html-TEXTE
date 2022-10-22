@@ -10,7 +10,7 @@
     src: url(../css/fontes/Android.otf);
 }
 body{
-    background-color: var;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
    
 
@@ -31,7 +31,12 @@ body{
 }
 header{
     background-image:  url("img/fundo-vers.jpg");
-    min-height: 150px;
+    min-width:411px;
+    max-width: 1000px;
+    padding-left:  20px;
+    padding-right: 20px;
+   
+   
     
 
 }
@@ -64,6 +69,11 @@ nav{
     background-color: black;
     text-align: right;
     display: block;
+    min-width:411px;
+    max-width: 1000px;
+    padding-left:  20px;
+    padding-right: 20px;
+    
  
 }
 nav >a{
@@ -90,6 +100,18 @@ main{
     border-bottom-right-radius: 8px;
    box-shadow: 0px 0px 10px rgb(71, 56, 56);
  
+
+}
+aside >ul{
+    list-style-position: inside;
+    columns: 2;
+    color: white;
+}
+aside>h1{
+    background-color: var(--core4);
+    padding: 3px;
+    margin: -10px -10px -10px;
+    border-radius: 10px 10px 0px 0px;
 }
 main p{
 
@@ -113,21 +135,7 @@ main  a{
     background-color: var(--core4);
     padding: 2px 6px;
 }
-footer > p{
-color: #0e0c79;
 
-text-align: center;
-font-size: large;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-footer {
-    background-color: black;
-    border:1px solid  #7c65bb;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
- 
-    
-}
 .imagens {
    max-width: 350px;
     display: block;
@@ -145,6 +153,25 @@ width: 300px; height: 300px;
 }
 aside{
     background-color: var(--core);
-    padding-left: 10px;
-    padding-right: 10px;
+   padding: 10px;
+   border-radius: 10px 10px 0px 0px;
+   box-shadow: 3px 3px 10px  rgba(rgb(94, 65, 65), #497549, rgb(102, 25, 42), alpha); 
 }
+footer > p{
+    color: #0e0c79;
+    
+    text-align: center;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    footer {
+        background-color: black;
+        min-width:411px;
+        max-width: 1000px;
+      
+        padding-left:  20px;
+        padding-right: 20px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+   
